@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <form action="">
+                <h1>My Feedback Form</h1>
+                <ul type="disc">
+                    <li><label for="name">Name:</label> <input type="text"></li><br>
+                    <li><label for="email">Email:</label> <input type="email"></li><br>
+                    <li><label for="password">Password:</label> <input type="password"></li><br>
+                    <li>Please Check all the emotions that apply to you:
+                        <ul type="disc">
+                            <li>Angry<input type="checkbox"></li>
+                            <li>Sad<input type="checkbox"></li>
+                            <li>Happy<input type="checkbox"></li>
+                            <li>Ambivalent<input type="checkbox"></li>
+                        </ul>
+                    </li><br>
+                    <li><label for="satisfied">How satisfied were you with our service?</label>
+                        <ul type="disc">
+                            <li>Very Satisfied<input type="radio" id="satisfied" name="satisfied"></li>
+                            <li>satisfied<input type="radio" id="satisfied" name="satisfied"></li>
+                            <li>Didn't care<input type="radio" id="satisfied" name="satisfied"></li>
+                            <li>Dissatisfied<input type="radio" id="satisfied" name="satisfied"></li>
+                            <li>Very dissatisfied<input type="radio" id="satisfied" name="satisfied"></li>
+                        </ul>
+                    </li><br>
+                    <li>
+                        <label for="comments">Further Comments</label>
+                        <textarea name="comments" id="comments" cols="30" rows="4" > </textarea>
+                    </li><br>
+                    <li><label for="photo">Bio photo:</label>
+                    <input type="file" id="file" name="file"></li><br>
+                    <li>
+                        <label for="loc">Location Visited</label>
+                        <input list="loc">
+                         <datalist id="loc">
+                            <option value="Panjagutta">Panjagutta</option>
+                            <option value="Jntu">Jntu</option>
+                            <option value="DilshukNagar">DilshukNagar</option>
+                         </datalist>
+                        </select>
+                    </li>
+                    <li><button>submit</button></li>
+                </ul>
+
+            </form>
+        </fieldset>
+    </form>
+</body>
+</html>

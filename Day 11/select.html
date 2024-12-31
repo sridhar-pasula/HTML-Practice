@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset style="height: auto; width: fit-content;">
+            <legend>Reg_from</legend>
+        <table >
+            <tr>
+            <td><label for="name">First Name:</label></td>
+            <td><input type="text" id="name" name="name" placeholder="Enter Your First Name"  autofocus required> </td>
+            </tr>
+            <tr>
+           <td> <label for="lname">Last Name:</label></td>
+           <td><input type="text" id="lname" name="lname" placeholder="Enter Your Last name " required ></td> 
+           </tr>
+           <tr></tr>
+           <td> <label for="ph">Phone:</label></td>
+            <td><input type="tel" id="ph" name="ph" placeholder="Enter Contact Number" pattern="[0-9]{10}"></td> 
+            </tr>
+            <tr>
+                <td><label for="date">Date Of Birth</label></td>
+                <td><input type="date" id="date" name="date"></td>
+            </tr>
+            <tr>
+            <td><label for="age">Age: </label></td>
+            <td><input type="number" id="age" name="age" placeholder="eg:21"></td> 
+        </tr>
+        <tr> <td><label for="add">Address:</label></td>
+            <td><textarea id="add" name="add" placeholder="enter you address here"></textarea></td></tr>
+            <tr>
+            <td><label for="email">Email: </label></td>
+            <td><input type="email" id="email" name="email" placeholder="eg:abc@gmai.com" pattern="[a-z][0-9]@[a-z].[a-z]" ></td>
+        </tr>
+        <tr>
+            <td><label for="pass">Password: </label></td>
+            <td><input type="password" id="pass" name="pass" ></td> 
+        </tr>
+        <tr>
+            <td><label for="file">File:</label></td>
+            <td><input type="file" id="file" name="file" ></td>
+        </tr>
+        <tr>
+            <td><label for="color">Color</label></td>
+            <td><input type="color" name="color" id="color"></td>
+        </tr>
+        <tr>
+            <td><label for="search">search</label></td>
+            <td><input type="search" name="search" id="search"></td>
+        </tr>
+        <tr>
+            <td><label for="url">Url</label></td>
+            <td><input type="url" name="url" id="url"></td>
+        </tr>
+        <tr>
+            <td><label for="DTL">Date-Time_Local</label></td>
+            <td><input type="datetime-local" name="DTL" id="DTL"></td>
+        </tr>
+        <tr>
+            <td><label for="mon">Month</label></td>
+            <td><input type="month" name="mon" id="mon"></td>
+        </tr>
+        <tr>
+            <td><label for="week">week</label></td>
+            <td><input type="week" name="weel" id="week"></td>
+        </tr>
+        <tr>
+            <td><label for="img">Image</label></td>
+            <td><input type="image" src="../Day7/image/fb.jpg" height="50px" width="50px" name="img" id="img"></td>
+        </tr>
+        <tr>
+            <td><label for="img">Hidden</label></td>
+            <td><input type="hidden"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Course:</label>
+            </td>
+            <td>
+                <select name="course" id="course" autofocus size="2px">
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                    <option value="Btech">BTECH</option>
+                    <option value="Bcom">Bcom</option>
+                    <option value="Bsc">Bsc</option>
+                    <option value="Bca">Bca</option>
+                    <option value="BA">BA</option>
+                    <option value="CA">CA</option>
+                </select>
+
+            </td>
+        </tr>
+           <tr>
+          <td> <label for="bro">Browser:</label></td>
+          <td>
+        <input list="bro">
+        <datalist id="bro">
+            <option value="chrome">chrome</option>
+            <option value="opera">opera</option>
+            <option value="mff">firefox</option>
+            <option value="ie">internet edge</option>
+        </datalist>
+    </td> 
+        </tr>
+        
+        <tr>
+            <td><label for="hobbies">Hobbies:</label></td>
+            <td><input type="checkbox" id="hobbies" name="hobbies">Chess
+            <input type="checkbox" id="hobbies" name="hobbies">Puzzle Solving
+            <input type="checkbox" id="hobbies" name="hobbies">Gym
+            </td>
+        </tr>
+        <tr>
+        <td><label for="gender">Gender</label></td>
+        <td><input type="radio" id="gender" name="gender">Male
+            <input type="radio" id="gender" name="gender">Female
+            </td>
+        </tr>
+        <tr> <td><button type="submit">Submit</button></td>
+        </tr>
+
+    </table>
+</fieldset>
+    </form>
+</body>
+</html>
