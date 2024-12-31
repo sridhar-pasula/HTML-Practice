@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Nested Table</caption>
+        <tr><th>Column 1</th>
+        <th>Column 2</th></tr>
+        <tr><td colspan="2">Colspan Column</td></tr>
+        <tr><td rowspan="2"> Rowspan Cell</td>
+        <td> Cell 2</td></tr>
+        <tr><td><table border="1" style="background-color: yellow;"> <tr>
+            <th>Inner Column Heading 1</th>
+            <th> Inner Column Heading 2</th>
+        </tr>
+    <tr>
+        <td style="background-color: gray;">inner data Cell 1</td>
+        <td style="background-color: green;"> <table border="1" style="background-color: palevioletred;">
+            <tr>
+                <th>Inner Most Column Heading 1</th>
+                <th> Inner Most Column heading 2</th>
+            </tr>
+            <tr>
+                <td style="background-color: purple;">inner most cell data 1</td>
+                <td style="background-color: orangered;">inner most cell data 2</td>
+            </tr>
+        </table></td>
+    </tr></table></td></tr>
+    </table>
+</body>
+</html>
